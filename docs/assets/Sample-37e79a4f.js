@@ -1,1 +1,0 @@
-import{d as o,u as n,c as s,a as l,b as e,o as c}from"./index-80628c74.js";const p=o({__name:"Sample",setup(i){const a=n();async function t(){await a.confirm("ダイアログを表示")?await a.alert("OKが選択されました"):await a.alert("Cancelが選択されました")}return(r,m)=>(c(),s("main",null,[l(" sample "),e("div",null,[e("button",{onClick:t},"ダイアログ表示")])]))}});export{p as default};
